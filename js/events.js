@@ -1,4 +1,13 @@
-//define functions here
+function getIt() {
+  $('p').on('click', function() {
+    alert('Hey!')
+  })
+}
+
+function frameIt() {
+  $('img').on('load', function() {
+    $('img').classList.add('tasty')
+});
 
 $(document).ready(function(){
 
