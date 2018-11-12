@@ -24,7 +24,7 @@ function submitIt() {
 }
 
 $(document).ready(function(){
-  getIt();
+  window.getIt();
   frameIt();
   pressIt();
   submitIt();
