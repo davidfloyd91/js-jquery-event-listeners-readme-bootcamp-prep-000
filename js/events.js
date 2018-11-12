@@ -2,14 +2,15 @@
 
 function getIt() {
   $('p').on('click', function() {
-    alert("Hey!");
-  });
+    alert("Hey!")
+  })
 }
 
 function frameIt() {
   $('img').on('load', function() {
-    $('img').classList.add('tasty');
-});
+    $('img').classList.add('tasty')
+  })
+}
 
 function pressIt() {
   $('form').on('keydown', function(key) {
