@@ -24,8 +24,5 @@ function submitIt() {
 }
 
 $(document).ready(function(){
-  return window.getIt();
-  frameIt();
-  pressIt();
-  submitIt();
+  window.getIt();
 });
