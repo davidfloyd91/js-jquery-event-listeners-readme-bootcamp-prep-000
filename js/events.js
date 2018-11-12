@@ -6,13 +6,13 @@ function getIt() {
 
 function frameIt() {
   $('img').on('load', function() {
-    $('img').classList.add('tasty')
+    $('img').classList.add('tasty');
 });
 
 function pressIt() {
   $('form').on('keydown', function(key) {
     if (key.which == 71) {
-      alert('You\'ve pressed G!')
+      alert('You\'ve pressed G!');
     }
   });
 }
